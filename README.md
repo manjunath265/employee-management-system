@@ -53,12 +53,19 @@ Visit http://localhost:8000/swagger/ to view the API docs
 Visit http://localhost:8000/dashboard/ to see visualizations
 
 
-- Example API Requests
-Get All Employees : GET /api/employees/
-Filter by Department : GET /api/employees/?department=1
-Search by Name or Email : GET /api/employees/?search=john
-Login to Get Token : POST /api/login/
-Get Monthly Attendance : GET /api/monthly-attendance/
+## 🧪 Example API Requests
+
+Here are some sample API endpoints and how to use them:
+
+| Purpose                     | Method | Endpoint                            | Example URL                                      |
+|----------------------------|--------|-------------------------------------|--------------------------------------------------|
+| Get All Employees          | GET    | `/api/employees/`                  | [GET http://localhost:8000/api/employees/](http://localhost:8000/api/employees/) |
+| Filter by Department       | GET    | `/api/employees/?department=1`     | [GET http://localhost:8000/api/employees/?department=1](http://localhost:8000/api/employees/?department=1) |
+| Search by Name or Email    | GET    | `/api/employees/?search=john`      | [GET http://localhost:8000/api/employees/?search=john](http://localhost:8000/api/employees/?search=john) |
+| Login to Get Token         | POST   | `/api/login/`                      | [POST http://localhost:8000/api/login/](http://localhost:8000/api/login/) |
+| Monthly Attendance Overview| GET    | `/api/monthly-attendance/`         | [GET http://localhost:8000/api/monthly-attendance/](http://localhost:8000/api/monthly-attendance/) |
+
+> 💡 Tip: Use the **Swagger UI** at [http://localhost:8000/swagger/](http://localhost:8000/swagger/) to test these endpoints interactively.
 
 ### Option A: Run Locally
 
